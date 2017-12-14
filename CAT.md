@@ -12,12 +12,12 @@
 
  3. Prettier, more verbose:
 
-       http --session es :9200/_cat/health v== format==json
+        http --session es :9200/_cat/health v== format==json
 
  4. Other available info:
 
-       http --session es :9200/_cat v== format==json
+        http --session es :9200/_cat
 
  5. Example: indexes:
 
-       http --session es :9200/_cat/indices v== format==json
+        http --session es :9200/_cat/indices v== format==json
