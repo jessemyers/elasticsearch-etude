@@ -1,6 +1,8 @@
 # Basics
 
-[CAT API](https://www.elastic.co/guide/en/elasticsearch/reference/5.6/cat.html)
+We're going to use the [CAT API](https://www.elastic.co/guide/en/elasticsearch/reference/5.6/cat.html).
+
+----
 
  1. Health check:
 

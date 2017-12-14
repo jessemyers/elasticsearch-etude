@@ -1,5 +1,9 @@
 # Indexes and Mappings
 
+We're going to use the [Indices API](https://www.elastic.co/guide/en/elasticsearch/reference/5.6/indices.html)
+
+----
+
  1. Create an index:
 
         http --session es PUT :9200/country
