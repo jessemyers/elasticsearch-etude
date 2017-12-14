@@ -27,13 +27,17 @@ Simple search:
 
         http --session es :9200/country/_search q==Cyprus
         http --session es :9200/country/_search q==name:Cyprus
-        http --session es :9200/country/_search q==capital:Cyprus
 
  2. Match capital too:
 
         http --session es :9200/country/_search q==Nicosia
+        http --session es :9200/country/_search q==capital:Nicosia
 
- 3. **NOT** fuzzy, but wildcards work:
+ 3. This misses:
+
+        http --session es :9200/country/_search q==capital:Cyprus
+
+ 4. **NOT** fuzzy, but wildcards work:
 
         http --session es :9200/country/_search q==nicosi
         http --session es :9200/country/_search q=='nicos*'
