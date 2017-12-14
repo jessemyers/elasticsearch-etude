@@ -23,3 +23,7 @@ We're going to use the [Indices API](https://www.elastic.co/guide/en/elasticsear
  5. Create and index with a mapping at once:
 
         http --session es PUT :9200/country mappings:=@mappings.json
+
+----
+
+[Next: Inserting Data](./INDEX.md)

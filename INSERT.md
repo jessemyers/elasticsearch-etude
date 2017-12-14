@@ -22,3 +22,7 @@ and the [Get API](https://www.elastic.co/guide/en/elasticsearch/reference/5.6/do
  2. Query by identifier:
 
         http --session es :9200/country/country/Cyprus
+
+----
+
+[Next: Searching](./SEARCH.md)

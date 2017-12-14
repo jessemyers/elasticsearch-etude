@@ -93,3 +93,7 @@ Auto-completion:
 
         http --session es :9200/country/_search suggest:='{"name": {"prefix": "unite", "completion": {"field": "suggest"}}}' | \
             jq .suggest.name[].options[].text
+
+----
+
+[Next: Troubleshooting](./TROUBLESHOOTING.md)

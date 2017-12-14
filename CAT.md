@@ -23,3 +23,7 @@ We're going to use the [CAT API](https://www.elastic.co/guide/en/elasticsearch/r
  5. Example: indexes:
 
         http --session es :9200/_cat/indices v== format==json
+
+----
+
+[Next: Indexes and Mappings](./INDEX.md)
