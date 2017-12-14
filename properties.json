@@ -1,0 +1,6 @@
+{
+    "capital": { "type" : "text" },
+    "name": { "type" : "keyword" },
+    "suggest": { "type" : "completion" },
+    "uri": { "type" : "keyword" }
+}
