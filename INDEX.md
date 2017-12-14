@@ -12,7 +12,7 @@ We're going to use the [Indices API](https://www.elastic.co/guide/en/elasticsear
 
         http --session es :9200/country
 
- 3. Put a mapping for a type:
+ 3. Put a [mapping for a type](./properties.json):
 
         http --verbose --session es PUT :9200/country/_mapping/country properties:=@properties.json
 
@@ -20,7 +20,7 @@ We're going to use the [Indices API](https://www.elastic.co/guide/en/elasticsear
 
         http --session es DELETE :9200/country
 
- 5. Create and index with a mapping at once:
+ 5. Create and [index with a mapping at once](./mappings.json):
 
         http --session es PUT :9200/country mappings:=@mappings.json
 
