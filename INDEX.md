@@ -26,4 +26,4 @@ We're going to use the [Indices API](https://www.elastic.co/guide/en/elasticsear
 
 ----
 
-[Next: Inserting Data](./INDEX.md)
+[Next: Inserting Data](./INSERT.md)
